@@ -1,0 +1,47 @@
+:root {
+    --black: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: yellow;
+    position: relative;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    overflow: auto;
+}
+
+/*Pseudo-class*/
+a:hover {
+    background-color: blue;
+}
+
+/*Pseudo-element*/
+.pp::first-line {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mybox {
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: var(--black);
+}

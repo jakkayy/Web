@@ -1,0 +1,19 @@
+.container {
+    max-width: 960px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: yellow;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* position: static; */
+    /* position: relative; */
+    /* position: fixed; */
+    /* position: absolute; */
+    position: sticky;
+    top: 0;
+}

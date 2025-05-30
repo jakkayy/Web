@@ -1,0 +1,17 @@
+p {
+    display: inline;
+    outline: 1px solid blue;
+}
+
+span {
+    display: block;
+    outline: 1px solid red;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    /* display: none; */
+    visibility: hidden;
+}

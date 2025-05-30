@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    height: 50px;
+}
+
+td {
+    height: 30px;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 50px;
+}
+
+tr:hover {
+    background-color: burlywood;
+}
